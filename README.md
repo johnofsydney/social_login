@@ -9,4 +9,4 @@
 - omniauth-github & omniauth-google-oauth2
 
 Created this project to practice devise and oauth.
-There's a tutorial [here:]() which you should read
+There's a tutorial [here:](https://johnofsydney.github.io/notes/rails/rails_social_login.html) which you should read
