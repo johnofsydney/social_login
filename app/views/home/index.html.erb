@@ -1,0 +1,8 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<% if current_user %>
+  <h3><%= current_user.name %></h3>
+  <h3><%= current_user.email %></h3>
+  <%= image_tag(current_user.image) unless current_user.image.nil? %>
+<% end %>
